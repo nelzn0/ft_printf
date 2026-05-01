@@ -6,7 +6,7 @@
 /*   By: nda-roch <nda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 11:21:26 by nda-roch          #+#    #+#             */
-/*   Updated: 2026/05/01 11:46:19 by nda-roch         ###   ########.fr       */
+/*   Updated: 2026/05/01 19:24:26 by nda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	ft_putnbr(int n)
 	}
 	if (nb >= 10)
 	{
-		count = ft_putnbr(nb / 10);
+		count = count + ft_putnbr(nb / 10);
 		count = count + ft_putnbr(nb % 10);
 	}
 	else

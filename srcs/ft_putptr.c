@@ -6,7 +6,7 @@
 /*   By: nda-roch <nda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 11:58:12 by nda-roch          #+#    #+#             */
-/*   Updated: 2026/05/01 19:16:31 by nda-roch         ###   ########.fr       */
+/*   Updated: 2026/05/01 19:22:11 by nda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	ft_putptr_r(unsigned long n)
 	count = 0;
 	if (n >= 16)
 	{
-		count = count + ft_putptr(n / 16);
-		count = count + ft_putptr(n % 16);
+		count = count + ft_putptr_r(n / 16);
+		count = count + ft_putptr_r(n % 16);
 	}
 	else
 	{
