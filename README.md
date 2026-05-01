@@ -96,10 +96,8 @@ Pointers are cast to `unsigned long` to safely handle 64-bit addresses. A separa
 
 ### AI Usage
 
-Claude (Anthropic) was used as a **learning tool** throughout this project. Rather than generating code directly, it was used to:
+AI was used as a **learning tool** throughout this project. Rather than generating code directly, it was used to:
 - Explain concepts such as variadic functions, `va_list`, and base conversion algorithms
 - Guide the reasoning behind function signatures and return value design
 - Review code written by the student and point out bugs without providing direct fixes
 - Help structure the project files and understand the overall architecture
-
-All code was written by nda-roch. AI was used exclusively in a Socratic, educational capacity.
