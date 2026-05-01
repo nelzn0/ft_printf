@@ -6,9 +6,11 @@
 /*   By: nda-roch <nda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 11:58:12 by nda-roch          #+#    #+#             */
-/*   Updated: 2026/05/01 12:28:14 by nda-roch         ###   ########.fr       */
+/*   Updated: 2026/05/01 19:16:31 by nda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 int	ft_putptr_r(unsigned long n)
 {
