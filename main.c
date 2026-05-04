@@ -6,7 +6,7 @@
 /*   By: nda-roch <nda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 19:29:43 by nda-roch          #+#    #+#             */
-/*   Updated: 2026/05/01 20:08:48 by nda-roch         ###   ########.fr       */
+/*   Updated: 2026/05/04 16:17:27 by nda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ int	main(void)
 	mine = ft_printf("Mine: %s\n", "hello");
 	printf("OG returned: %d | Mine returned: %d\n\n", real, mine);
 
-	real = printf("OG:   %s\n", NULL);
-	mine = ft_printf("Mine: %s\n", NULL);
+	real = printf("OG:   %p\n", NULL);
+	mine = ft_printf("Mine: %p\n", NULL);
 	printf("OG returned: %d | Mine returned: %d\n\n", real, mine);
 
 	printf("--- %%p Test ---\n");
